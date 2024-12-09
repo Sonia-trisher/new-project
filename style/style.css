@@ -12,32 +12,69 @@ body{
     flex-direction: column;
     padding: 20PX;
     margin: 20PX;
+    font-family: "Roboto";
+    color:rgb(49, 47, 47);
 }
 h1{
-    margin: 40px;
-    justify-items: center;   
+    margin: 20px;
+    font-size:36px; 
+    text-align: center; 
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+      
 }
 p{
-    justify-content: center;     
+    justify-content: center; 
+    color:rgb(49, 47, 47); 
+    text-align: center; 
+    padding: 20px 0px; 
 }
 .picture{
     width: 96%;
     background-color: white;
-    padding:10PX 60px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
     
     
 }
-.picture p{
-    padding: 0px 60PX 10PX 60PX;
+.hhh{
+    width: 70%;
 }
-.picture img{
-    margin: 10px;
+.hhh img{
+    max-width: 100%;
+    margin: 0 auto;
 }
 .innov{
     margin: 40px;
     justify-items: center;
 }
 .one{
-    margin: 10px;
-    place-content: center
+
+    margin: 20PX auto;
+    width: 50%;
+  
 }
+.one li{
+    padding: 10px;
+font-weight: 100;
+color:rgb(49, 47, 47);
+font-size: 1.2rem;
+
+}
+.two{
+    margin: 20PX auto;
+    width: 50%;
+    font-size: large;   
+}
+h3{
+    
+    text-align: center;
+}
+a{
+    color: rgb(86, 51, 141);
+}
+
